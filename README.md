@@ -1,8 +1,10 @@
 # Puppeteer on WSL
 
-🚧 ___May be incomplete, any feedback is appreciated!___ 🚧
+🚧 ___Incomplete! Any feedback is appreciated!___ 🚧
 
 I spent several hours getting my WSL set up to run Puppeteer. This incomplete guide is a work in progress as I try to document exactly what is required to run Puppeteer on WSL. 
+
+
 
 Start with an update/upgrade
 
@@ -31,7 +33,7 @@ Follow [setup setuid sandbox](https://github.com/puppeteer/puppeteer/blob/main/d
 Then 
 
 ```bash
-$ git clone ......
+$ git clone git@github.com:nickFalcone/test-wsl-puppeteer.git
 $ npm install
 $ node screenshot.js
 ```
